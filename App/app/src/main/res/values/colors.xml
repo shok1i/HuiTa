@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#D2ECF3</color>
+
+    <color name="black">#1E1E1E</color>
+    <color name="red">#FE0000</color>
+    <color name="blue">#3CACD2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#E5E9EB</color>
+
+    <color name="passing">#67BB6D</color>
+    <color name="pass">#5C6CC1</color>
+    <color name="abandoned">#EE5451</color>
+    <color name="planned">#B565BB</color>
+    <color name="postponed">#FFC928</color>
+</resources>

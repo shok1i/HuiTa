@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "64247986413",
+    "project_id": "kedwi-13610",
+    "storage_bucket": "kedwi-13610.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64247986413:android:b17a673962d62fb49cb4e4",
+        "android_client_info": {
+          "package_name": "com.shokii.kedwi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc2HVKlaXzxIaWR7nzvIsYUDiywjOjX3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

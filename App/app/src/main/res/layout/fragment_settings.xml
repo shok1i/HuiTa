@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/backBtn"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/back_arrow"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="5dp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="32dp"
+
+        style="@style/font_large_header"
+
+        android:text="Редактировать профиль"
+
+        app:layout_constraintTop_toTopOf="@id/backBtn"
+        app:layout_constraintStart_toEndOf="@id/backBtn"
+        app:layout_constraintBottom_toBottomOf="@id/backBtn"/>
+
+    <TextView
+        android:id="@+id/profileSettingsHeader"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="32dp"
+
+        style="@style/font_large_header"
+        android:textColor="@color/blue"
+
+        android:text="Профиль"
+
+        app:layout_constraintTop_toBottomOf="@id/backBtn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/out"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+
+        style="@style/font_highlighting_text"
+        android:textSize="18sp"
+
+        android:text="Выйти из учетной записи"
+
+        app:layout_constraintTop_toBottomOf="@id/profileSettingsHeader"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/changeUserImage"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+
+        style="@style/font_highlighting_text"
+        android:textSize="18sp"
+
+        android:text="Изменить фото профиля"
+
+        app:layout_constraintTop_toBottomOf="@id/out"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/changeUserImageDescription"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="20dp"
+
+        style="@style/font_base_text"
+        android:textColor="#801E1E1E"
+        android:textSize="12sp"
+
+        android:text="Загрузить с устройства"
+
+        app:layout_constraintTop_toBottomOf="@id/changeUserImage"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/changeUserStatus"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+
+        style="@style/font_highlighting_text"
+        android:textSize="18sp"
+
+        android:text="Изменить статус"
+
+        app:layout_constraintTop_toBottomOf="@id/changeUserImageDescription"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/changeUserStatusDescription"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="20dp"
+
+        style="@style/font_base_text"
+        android:textColor="#801E1E1E"
+        android:textSize="12sp"
+
+        android:text="Статус неуказан"
+
+        app:layout_constraintTop_toBottomOf="@id/changeUserStatus"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/changeUserName"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+
+        style="@style/font_highlighting_text"
+        android:textSize="18sp"
+
+        android:text="Изменить никнейм"
+
+        app:layout_constraintTop_toBottomOf="@id/changeUserStatusDescription"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/securitySettingsHeader"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="32dp"
+
+        style="@style/font_large_header"
+        android:textColor="@color/blue"
+
+        android:text="Безопасность"
+
+        app:layout_constraintTop_toBottomOf="@id/changeUserName"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/changeUserPassword"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+
+        style="@style/font_highlighting_text"
+        android:textSize="18sp"
+
+        android:text="Изменить пароль"
+
+        app:layout_constraintTop_toBottomOf="@id/securitySettingsHeader"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
